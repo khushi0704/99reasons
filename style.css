@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* navbar styling */
+.navbar{
+    background-color: rgb(25, 31, 34);
+    position: fixed;
+    width: 100%;
+    padding: 5px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background-color: blanchedalmond;
+}
+.navbar .navbar-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    margin-left: 15px;
+    font-size: 35px;
+    color: chartreuse;
+    font-weight: 500;
+}
+.navbar .logo a span{
+    color: coral;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: darkgoldenrod;
+    font-size: large;
+    padding-right: 15px;
+    font-weight: 600;
+}
+.navbar .menu li a:hover{
+    color: rgb(255, 255, 255);
+}
+.navbar.sticky .menu li a:hover{
+    color: darksalmon;
+}
