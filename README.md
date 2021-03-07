@@ -11,7 +11,7 @@
 * [Contact](#contact)
 
 ## Objective
-A website designed to let students of JUET of all years & courses interact with each other , locate their batch mates/friends around/near them , Can view activity / online / offline status of each other.
+A Food & travel Blog Website where users can explore great Indian cities and their city favourite delicious food rolls . Come , Hop in for a bite !
 
 ## Features
 List of features ready and TODOs for future development
