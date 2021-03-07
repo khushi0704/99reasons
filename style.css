@@ -6,9 +6,10 @@
 }
 /* navbar styling */
 .navbar{
-    background-color: rgb(25, 31, 34);
+    background-color: rgb(48, 50, 51);
     position: fixed;
     width: 100%;
+    font-family: 'Ubuntu', sans-serif;
     padding: 5px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
@@ -25,6 +26,7 @@
 .navbar .logo a{
     margin-left: 15px;
     font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: chartreuse;
     font-weight: 500;
 }
@@ -44,14 +46,14 @@
 }
 .navbar .menu li a{
     display: block;
-    color: darkgoldenrod;
+    color: rgb(255, 255, 255);
     font-size: large;
     padding-right: 15px;
     font-weight: 600;
 }
 .navbar .menu li a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(194, 235, 15);
 }
-.navbar.sticky .menu li a:hover{
+.navbar.sticky .menu li a{
     color: darksalmon;
 }
