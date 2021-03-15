@@ -24,7 +24,7 @@
     justify-content: space-between;
 }
 .navbar .logo a{
-    margin-left: 15px;
+    float: left;
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: chartreuse;
@@ -80,34 +80,8 @@
     background: #8a59b3;
     color: white;
 }
-@media (max-width:960px){
-    .navbar .menu li a{
-        display: block;
-        color: rgb(255, 255, 255);
-        font-size: small;
-        padding-right: 15px;
-        font-weight: 600;
-    }
-    .navbar .logo a{
-        margin-left: 10px;
-        font-size: 15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: chartreuse;
-        font-weight: 500;
-    }
-    .navbar .logo a span{
-        color: coral;
-        font-size: 15px;
-        font-weight: 700;
-        font-style: italic;
-        transition: all 0.3s ease;
-    }
-}
-@media (max-width:768px){
-    .navbar .navbar-cont{
-        display: flex;
-        flex-direction: column;
-    }
+
+@media (max-width:786px){
     .navbar .menu li a{
         display: block;
         color: rgb(255, 255, 255);
@@ -130,47 +104,19 @@
         transition: all 0.3s ease;
     }
 }
-/*.checkbtn{
-    float: right;
-    font-size: 30px;
-    margin-right: 15px;
-    line-height: 70px;
-    color: bisque;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
+@media (max-width:540px){
+    .navbar .navbar-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar .menu {
+        flex-direction: column;
+    }
+    .navbar .navbar-cont .menu .menu-item{
+        padding: 8px;
+    }
+    .navbar .navbar-cont .menu .fa{
+        background-color: rgb(0, 0, 0);
+    }
 
-@media (max-width:1200px){
-    label.logo{
-        font-size: 20px;
-        font-weight: 400;
-    }
-    nav ul li a{
-        font-size: 15px;
-    }
 }
-@media (max-width:940px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background-color: #2c3e50;
-        opacity: 0.75;
-        top:70px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-}*/
