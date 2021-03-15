@@ -88,8 +88,26 @@
         padding-right: 15px;
         font-weight: 600;
     }
+    .navbar .logo a{
+        margin-left: 10px;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: chartreuse;
+        font-weight: 500;
+    }
+    .navbar .logo a span{
+        color: coral;
+        font-size: 15px;
+        font-weight: 700;
+        font-style: italic;
+        transition: all 0.3s ease;
+    }
 }
-@media (max-width:500){
+@media (max-width:768px){
+    .navbar .navbar-cont{
+        display: flex;
+        flex-direction: column;
+    }
     .navbar .menu li a{
         display: block;
         color: rgb(255, 255, 255);
