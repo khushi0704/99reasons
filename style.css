@@ -5,88 +5,61 @@
     text-decoration: none;
 }
 /* navbar styling */
-.navbar{
-    background-color: rgb(48, 50, 51);
-    width: 100%;
-    font-family: 'Ubuntu', sans-serif;
-    padding: 5px 0;
-    font-family: 'Ubuntu', sans-serif;
-    transition: all 0.3s ease;
+/* navbar styling */
+nav{
+   background-color: #2e2b2c;
+   height: 70px;
+   width: 100%;
+
 }
-.navbar.sticky{
-    padding: 15px 0;
-    background-color: blanchedalmond;
+
+label.logo{
+   margin-left: 15px;
+   color: antiquewhite;
+   font-size: 30px;
+   line-height: 70px;
 }
-.navbar .navbar-cont{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+nav ul {
+   float: right;
+   margin-right: 20px;
 }
-.navbar .logo a{
-    float: left;
-    font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: chartreuse;
-    font-weight: 500;
+nav ul li{
+   display: inline-block;
+   line-height: 70px;
+   margin:0 10px;
 }
-.navbar .logo a span{
-    color: coral;
-    font-size: 30px;
-    font-weight: 700;
-    font-style: italic;
-    transition: all 0.3s ease;
+nav ul li a{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(235, 241, 241);
+   font-size:17px  ;
+ 
 }
-.navbar.sticky .logo a span{
-    color: #fff;
+nav a:hover{
+   display: block;
+   color: rgb(255, 149, 149);
 }
-.navbar .menu li{
-    list-style: none;
-    display: inline-block;
+.checkbtn{
+   float: right;
+   font-size: 30px;
+   margin-right: 15px;
+   line-height: 70px;
+   color: bisque;
+   cursor: pointer;
+   display: none;
 }
-.navbar .menu li a{
-    display: block;
-    color: rgb(255, 255, 255);
-    font-size: large;
-    padding-right: 15px;
-    font-weight: 600;
-}
-.navbar .menu li a:hover{
-    color: rgb(15, 235, 224);
-}
-.navbar.sticky .menu li a{
-    color: darksalmon;
-}
-/* navbar social links style */
-.navbar .menu .fa {
-    margin-right: 5px;
-    font-weight: 100;
-    padding: 5px;
-    text-align: center;
-    width: 25px;
-}
-.navbar .menu .fa:hover{
-    color: rgb(255, 255, 255);
-}
-.navbar .menu .fa-youtube{
-    background: #bb0000;
-  color: white;
-}
-.navbar .menu .fa-facebook{
-    background: #3B5998;
-    color: white;
-}
-.navbar .menu .fa-instagram{
-    background: #8a59b3;
-    color: white;
+#check{
+   display: none;
 }
 
 
 /* main content styling */
 .main{
-    margin-top: 20px;
+    
+    background-color: yellow;
 }
 /*footer styling */
 footer{
+  
     background-color: rgb(47, 42, 42);
     padding-top: 60px;
     padding-bottom: 20px;
@@ -178,26 +151,29 @@ footer a:hover {
 }
 /* responsive styling  */
 @media (max-width:786px){
-    .navbar .menu li a{
+    label.logo{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    .checkbtn{
+        float: right;
         display: block;
-        color: rgb(255, 255, 255);
-        font-size: x-small;
-        padding-right: 15px;
-        font-weight: 600;
     }
-    .navbar .logo a{
-        margin-left: 10px;
-        font-size: 15px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: chartreuse;
-        font-weight: 500;
+    nav ul{
+        position: fixed;
+        width: 100%;
+        background-color: #2c3e50;
+        opacity: 0.75;
+        top:70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
     }
-    .navbar .logo a span{
-        color: coral;
-        font-size: 15px;
-        font-weight: 700;
-        font-style: italic;
-        transition: all 0.3s ease;
+    #check:checked ~ ul{
+        left: 0;
     }
    
     .foot-left p{
@@ -239,17 +215,5 @@ footer a:hover {
 
 }
 @media (max-width:540px){
-    .navbar .navbar-cont{
-        display: flex;
-        flex-direction: column;
-    }
-    .navbar .menu {
-        flex-direction: column;
-    }
-    .navbar .navbar-cont .menu .menu-item{
-        padding: 8px;
-    }
-    .navbar .navbar-cont .menu .fa{
-        background-color: rgb(0, 0, 0);
-    }
+  
 }
