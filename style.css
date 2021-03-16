@@ -7,7 +7,6 @@
 /* navbar styling */
 .navbar{
     background-color: rgb(48, 50, 51);
-    position: fixed;
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
     padding: 5px 0;
@@ -81,6 +80,103 @@
     color: white;
 }
 
+
+/* main content styling */
+.main{
+    margin-top: 20px;
+}
+/*footer styling */
+footer{
+    background-color: rgb(47, 42, 42);
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.foot-head{
+    color: rgb(220, 217, 20);
+    text-decoration: underline;
+ font-size: 25px;
+ font-weight: 600;
+}
+.foot-left p{
+color: rgb(255, 255, 255);
+ font-size: 20px;
+ margin: 10px;
+ font-weight: 500;
+}
+.foot-upper{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.field-name , .field-email , .field input{
+    padding: 10px;
+    border-radius: 4px;
+}
+.field-name , .field-email , .field{
+    padding: 3px;
+}
+.fields .button{
+    padding-top: 4px;
+}
+.fields button{
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.foot-lower{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.copyright{
+    color: white;
+}
+.media-links li{
+    list-style: none;
+    display: inline-block;
+}
+.foot-left{
+    width: 33.3%;
+}
+.foot-middle{
+    width: 33.3%;
+}
+.foot-menu li{
+    margin: 10px;
+    list-style: none;
+}
+.foot-menu li a{
+   color: white;
+   font-size: large;
+}
+footer .fa {
+    border-radius: 5px;
+    font-weight: 100;
+    padding:5px;
+    text-align: center;
+    width: 25px;
+}
+footer .fa-youtube{
+    background: #bb0000;
+  color: white;
+}
+footer .fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+footer .fa-instagram{
+    background: #8a59b3;
+    color: white;
+}
+footer a:hover {
+    color: chartreuse;
+}
+.foot-right{
+    width: 33.3%;
+}
+/* responsive styling  */
 @media (max-width:786px){
     .navbar .menu li a{
         display: block;
@@ -103,6 +199,44 @@
         font-style: italic;
         transition: all 0.3s ease;
     }
+   
+    .foot-left p{
+        color: rgb(255, 255, 255);
+         font-size: 15px;
+         margin: 10px;
+         font-weight: 500;
+        }
+        .foot-menu li a{
+            color: white;
+            font-size: small;
+         }
+         .foot-menu li{
+            margin: 5px;
+            list-style: none;
+        }
+        footer a:hover {
+            color: rgb(246, 109, 96);
+        }
+    .foot-head{
+        font-size: 20px;
+    }
+    .foot-upper{
+        flex-direction: column;
+    }
+    .foot-left{
+        width: 100%;
+    }
+    .foot-middle{
+        width: 100%;
+    }
+    .foot-right{
+        width: 100%;
+    }
+    .foot-lower{
+        flex-direction: column;
+        margin: 0;
+    }
+
 }
 @media (max-width:540px){
     .navbar .navbar-cont{
@@ -118,5 +252,4 @@
     .navbar .navbar-cont .menu .fa{
         background-color: rgb(0, 0, 0);
     }
-
 }
