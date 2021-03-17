@@ -12,6 +12,7 @@ nav{
    width: 100%;
     position: fixed;
     overflow: hidden;
+    z-index: 1000;
 }
 
 label.logo{
@@ -231,8 +232,8 @@ section{
       border-radius: 10px;
       overflow: hidden;
       position: absolute;
-      left: 15%;
-      top: 150%;
+      left: 12%;
+      top: 128%;
       transform: translate(-50%,-50%);
   }
   .slide-img{
@@ -247,9 +248,7 @@ section{
   .detail-box{
       width: 100%;
       display: flex;
-      justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+        padding: 10px 20px;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -257,4 +256,7 @@ section{
     .type{
         display: flex;
         flex-direction: column;
+    }
+    .head{
+        height: 500px;
     }
