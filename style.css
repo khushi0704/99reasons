@@ -52,12 +52,8 @@ nav a:hover{
 #check{
    display: none;
 }
-
-
-
 /*footer styling */
 footer{
-  
     background-color: rgb(47, 42, 42);
     padding-top: 60px;
     padding-bottom: 20px;
@@ -222,7 +218,43 @@ footer a:hover {
     }
 
 }
-/* main container styling */
-.main-cont .bgimg img{
-    width: 100%;
+/* main container styling */  
+section{
+    
 }
+  .image1 {
+      width: 100%;
+  }
+  .box{
+      width: 300px;
+      box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      overflow: hidden;
+      position: absolute;
+      left: 15%;
+      top: 150%;
+      transform: translate(-50%,-50%);
+  }
+  .slide-img{
+      height: 150px;
+  }
+  .slide-img img{
+    width:100% ;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+  .detail-box{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .type{
+        display: flex;
+        flex-direction: column;
+    }
