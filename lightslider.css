@@ -152,6 +152,7 @@
     top: 50%;
     height: 32px;
     background-image: url('../img/controls.png');
+    background-color: rgb(253, 253, 253);
     cursor: pointer;
     position: absolute;
     z-index: 99;
