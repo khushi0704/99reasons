@@ -264,7 +264,6 @@ footer a:hover {
 .main-cont{
     display: flex;
     padding-top: 70px;
-    padding-bottom: 50px;
     background-color: #b9e763;
 }
 .bgimg2{
@@ -274,11 +273,6 @@ footer a:hover {
 .bgimg{
     width: 70%; 
  }
-.image7 {
-    position: absolute;
-    width: 25%;
-    margin: 10px 0 0 -10px;
-} 
 .image6 {
     position: absolute;
     width: 25%;
@@ -321,9 +315,13 @@ footer a:hover {
     }
     .image6{
         width: 50%;
+        margin:50px 0 0 -10px;
+       
        }
     .image7{
         width: 50%;
+        margin:-5px 0 0 -10px;
+       
        }
     .image2{
         width: 70%;
@@ -355,8 +353,6 @@ footer a:hover {
 }
 /*slide head*/
 .slide-head h1{
-    padding-top: 70px;
-    padding-bottom: 70px;
     font-size: 30px;
     margin-left: 25px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
