@@ -266,13 +266,62 @@ footer a:hover {
 }
 .image1 {
     position: absolute;
-    margin:-60px 0 0 -60px;
+    width: 40%;
+    margin:-10px 0 0 -30px;
     /*
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;*/
 }
+.image3 {
+    position: absolute;
+    margin:60px 0 0 -350px;
+    width: 10%;
+}
+.image3:hover {
+    cursor: pointer;
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.image4 {
+    position: absolute;
+    margin:170px 0 0 -300px;
+    width: 20%;
+}
+.image5 {
+    position: absolute;
+    margin:170px 0 0 -350px;
+    width: 6%;
+}
+.image4:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 /*
 @-moz-keyframes spin { 100% { -moz-transform: rotate(30deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(30deg); } }
 @keyframes spin { 50% { -webkit-transform: rotate(30deg); transform:rotate(30); } }*/
+@media (max-width:300px){
+    .image1 {
+        position: absolute;
+        width: 40%;
+        margin:-5px 0 0 -10px;
+        /*
+        -webkit-animation:spin 4s linear infinite;
+        -moz-animation:spin 4s linear infinite;
+        animation:spin 4s linear infinite;*/
+    }
+    .image3 {
+        position: absolute;
+        margin:10px 0 0 -80px;
+        width: 13%;
+    }
+    .image4 {
+        position: absolute;
+        margin:40px 0 0 -60px;
+        width: 15%;
+    }
+    .image5 {
+        position: absolute;
+        margin:45px 0 0 -80px;
+        width: 6%;
+    }  
+}
