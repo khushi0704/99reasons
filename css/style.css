@@ -273,6 +273,11 @@ footer a:hover {
 .bgimg{
     width: 70%; 
  }
+.image7 {
+    position: absolute;
+    width: 25%;
+    margin: 10px 0 0 -10px;
+} 
 .image6 {
     position: absolute;
     width: 25%;
