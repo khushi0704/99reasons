@@ -296,7 +296,7 @@ footer a:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 /*mobile view */
-@media (max-width:364px){
+@media (max-width:390px){
     .image1 {
         position: absolute;
         width: 40%;
