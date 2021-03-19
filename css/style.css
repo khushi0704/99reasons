@@ -478,6 +478,12 @@ footer a:hover {
     width: 50%;
     margin:-5px 0 0 -10px; 
    }
+   .image8{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 70%;
+}
     /* res form styling */
     .col-25, .col-75, input[type=submit] {
       width: 100%;
