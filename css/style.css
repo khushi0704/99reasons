@@ -173,7 +173,11 @@ footer a:hover {
 	justify-content: center;
 	align-items: center;
 }
-
+.slide-head{
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: 'Oswald', sans-serif;
+}
   .box{
 	width:250px;
 	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
@@ -256,8 +260,8 @@ footer a:hover {
     width: 6%;
 }
 .image4:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+  transform: scale(1.1); }
+
 /*form styling */
 /* Style inputs, select elements and textareas */
 .row input[type=text], select, textarea{
@@ -271,7 +275,9 @@ footer a:hover {
   
   /* Style the label to display next to the inputs */
   label {
+      color: aliceblue;
     padding: 12px 12px 12px 0;
+    text-decoration: underline;
     display: inline-block;
   }
   
@@ -300,15 +306,26 @@ footer a:hover {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 5px;
     width: 50%;
-    background-color: #a5da57;
+   background-color: #252829;
     padding: 20px;
   }
+  .container p{
+    color: rgb(195, 148, 240);
+    text-align: center;
+    font-weight: 600;
+  }
+    .container h1{
+        font-size: 32px;
+        text-align: center;
+        color: burlywood;
+        font-weight: 600;
+    }
   
   /* Floating column for labels: 25% width */
   .col-25 {
     float: left;
     width: 25%;
-    margin-top: 6px;
+    margin-top:6px;
   }
   
   /* Floating column for inputs: 75% width */
@@ -324,10 +341,14 @@ footer a:hover {
     display: table;
     clear: both;
   }
-  
-
-
-
+  .about{
+      height: 500px;
+  }
+  .image8{
+      position: absolute;
+      margin-top: 10px;
+      width: 20%;
+  }
 
   /* responsive */
   
