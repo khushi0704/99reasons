@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="images/logo1.png" type="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Food Recipes</title>
 </head>
 <body>
@@ -15,13 +18,71 @@
         </label>
         <span class="logo">99reasonstolive</span>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#travel">Travel</a></li>
-            <li><a href="#food">Food</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#contact">Join Community</a></li>
+            <li><a href="#join">Join Community</a></li>
         </ul>
     </nav>
+    <!--Footer styling-->
+    <footer id="contact">
+        <div class="foot-upper">
+        <div class="foot-left">
+            <div class="foot-head">
+                <span>About Me</span>
+              </div>
+              <p>Hi , I'm Harsh Jain , 20 year old , a Wanderlust , I love spicing up dishes & rolling on my shoes the world. If you'd like to join my 
+                  team , there's a form up there . Your Feedback matters so don't forget to fill it ! </p>
+        </div>
+            <div class="foot-middle">
+                <div class="foot-head">
+                    <span>Quick Links</span>  
+                </div>
+                <ul class="foot-menu">
+                    <li><a href="#">Shimla</a></li>
+                    <li><a href="#">Delhi</a></li>
+                    <li><a href="#">Manali</a></li>
+                    <li><a href="#">Hyderabad</a></li>
+                    <li><a href="#">Ooty</a></li>
+                </ul>
+            </div>
+        <div class="foot-right">
+            <form action="contact.php" , method="POST">
+            <div class="fields">
+                <div class="foot-head">
+                    <span>Message Me</span>
+                </div>
+                <div class="field name">
+                    <input type="text" name = "name" placeholder="Name" required>
+                </div>
+                <div class="field email">
+                    <input type="email" name = "email" placeholder="Email" required>
+                </div>
+                <div class="field">
+                    <input type="text" name = "msg" placeholder="Subject" required>
+                </div>
+                <div class="button">
+                    <button type="submit" name="btn-send">Send message</button>
+                </div>
+        </div>
+    </form>
+    </div>
+</div> 
+<br>
+    <div class="foot-lower">
+        <p class="copyright">© 2021 99reasonstolive . All rights reserved</p>
+        <p class="copyright">Website Created & Designed by <a href="https://github.com/khushi0704" style="color: rgb(245, 148, 22);">Khushi Jain</a></p>
+        
+        <ul class="media-links">
+            <li style="color: antiquewhite;padding-right: 10px;">Follow me on </li>
+            <li><a href="https://www.facebook.com/profile.php?id=100008166403801"><i class ="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/oct.hawk/"><i class ="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCgelCRFYBoBnzEcamK_upow"><i class ="fa fa-youtube"></i></a></li>
+        </ul>
+    </div>
+    </div>
+    </footer>
 </body>
 </html>
