@@ -1,0 +1,26 @@
+.t-main{
+    padding-top: 100px;
+}
+.t-king{
+    display: flex;
+}
+.t-cont{
+    width: 70%;
+}
+.t-conts{
+    width: 30%;
+}
+.t-conts img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+@media (max-width:600px){
+    .t-cont{
+        width: 60%;
+    }
+    .t-conts{
+        width: 40%;
+    }  
+}
