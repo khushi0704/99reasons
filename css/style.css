@@ -170,48 +170,34 @@ footer a:hover {
 }
 
 /* main container styling */  
-.slider{
-	width:100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 .slide-head{
     font-size: 20px;
    text-align: center;
     font-family: 'Oswald', sans-serif;
 }
-  .box{
-	width:250px;
-	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
-	border-radius: 10px;
-	overflow: hidden;
-	margin: 25px;
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-  .slide-img{
-      height: 150px;
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    height: 350px;
+    width: 270px;
+    box-shadow: 0 4px 8px 0 rgba(3, 1, 1, 0.2);
+    transition: 0.3s;
   }
-  .slide-img img{
-    width:100% ;
-    height: 100%;
-    object-fit: cover;
-    box-sizing: border-box;
-  }
-  .detail-box{
-      width: 100%;
-      display: flex;
-        padding: 10px 20px;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    }
-    .type{
-        display: flex;
-        flex-direction: column;
-    }
-    .head{
-        height: 500px;
+.cardg{
+    width: 100%;
 }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card-inner {
+    padding: 2px 16px;
+  }
+  
 .main-cont{
     display: flex;
     padding-top: 72px;
@@ -232,6 +218,7 @@ footer a:hover {
 }
 .image1:hover{
     transform: scale(1.1);
+    transition: 0.3s;
 }
 .image2{
     width: 100%;
@@ -260,7 +247,7 @@ footer a:hover {
   
   /* Style the label to display next to the inputs */
   label {
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
     padding: 12px 12px 12px 0;
     text-decoration: underline;
     display: inline-block;
@@ -444,7 +431,7 @@ footer a:hover {
 
     /* res form styling */
     .col-25, .col-75, input[type=submit] {
-      width: 100%;
+      width: 50%;
       margin-top: 0;
     }
     .join{
@@ -460,21 +447,15 @@ footer a:hover {
          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
          border-radius: 5px;
          width: 100%;
-         background-color: #a3e93a;
          padding: 20px;
+         font-size: small;
        }
+       .container h1{
+        font-size: 15px;
+    }
        .container p{
-           font-size: 15px;
-        color: rgb(126, 0, 243);
-        text-align: center;
-        font-weight: 600;
-      }
-        .container h1{
-            font-size: 21px;
-            text-align: center;
-            color: rgb(248, 85, 21);
-            font-weight: 600;
-        }
+           font-size: 10px;
+      }  
         .about-inner{
             flex-direction: column;
         }
@@ -485,4 +466,12 @@ footer a:hover {
              font-size: 15px;
              line-height: 20px; 
             }
+        .card {
+            padding: 10px;
+            height: auto;
+            width: 50%;
+            /* Add shadows to create the "card" effect */
+            box-shadow: 0 4px 8px 0 rgba(3, 1, 1, 0.2);
+            transition: 0.3s;
+          }
   }
