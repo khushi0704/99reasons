@@ -226,14 +226,13 @@ footer a:hover {
 .image1 {
     position: absolute;
     width: 45%;
-    margin:5px 0 0 5px;
-    
+    margin:5px 0 0 5px;   
 }
 .image1:hover{
     transform: scale(1.1);
 }
 .image2{
-    width: 70%;
+    width: 100%;
 }
 /*form styling */
 /* Style inputs, select elements and textareas */
