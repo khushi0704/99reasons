@@ -1,5 +1,5 @@
-.t-main{
-    padding-top: 100px;
+.t-main , .slider {
+    padding: 100px;
 }
 .t-king{
     display: flex;
@@ -9,6 +9,9 @@
 }
 .t-conts{
     width: 30%;
+    padding: 10px;
+    border-style: ridge;
+
 }
 .t-conts img{
     display: block;
@@ -16,11 +19,32 @@
     margin-right: auto;
     width: 70%;
 }
+.t-conts ul{
+    text-align: center;
+    list-style: none;
+}
+.t-conts ul li a:hover{
+    color: red;
+}
+.ig img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 50%;
+}
 @media (max-width:600px){
+    body{
+        font-size: small;
+    }
+    .t-main,.slider {
+        padding: 0px;
+        padding-top: 80px;
+    }
     .t-cont{
-        width: 60%;
+        width: 70%;
     }
     .t-conts{
-        width: 40%;
+        width: 30%;
     }  
 }
