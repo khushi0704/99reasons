@@ -1,0 +1,20 @@
+.foodie{
+    height: 550px;
+}
+.foodie img{
+   width: 100%;
+   }
+.foodietwo{
+    height: 500px;
+    display: flex;
+}
+.hello{
+    width: 50%;
+    background-color: aqua;
+    background-image: url('../images/food img/canva.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hemlo{
+  width: 50%;
+}
