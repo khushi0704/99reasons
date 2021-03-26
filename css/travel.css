@@ -65,7 +65,9 @@ nav{
     width: 50%;
 }
 .igclassright{
-    background-image: url(../images/bg1.png);
+    background-image: url(../images/perfectbg.png);
+    background-repeat: no-repeat;
+    opacity: 0.9;
     background-size: cover;
     width: 50%;
 }
@@ -84,11 +86,13 @@ nav{
     border-radius: 50%;
 }
 .igclassright h1{
+    color: aliceblue;
     font-size: 40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
     text-align: center;
 }
 .igclassright p{
+    color: aliceblue;
     transition: all 0.3s ease-in-out;
     font-size: 20px;
     padding: 15px;
@@ -102,8 +106,20 @@ nav{
         font-size: small;
     }
     .t-main,.slider {
-        padding: 0px;
         padding-top: 80px;
+    }
+   
+    .t-cont h1{
+        font-size: 25px;
+    }
+    .t-conts ul li a{
+        font-size: 10px;
+        font-weight: 600;
+       color: rgb(32, 67, 221);
+    }
+    .t-cont p{
+        margin: 10px;
+        font-size: 10px;
     }
     .t-cont{
         width: 70%;
@@ -120,4 +136,11 @@ nav{
     .igclassright{
         width: 100%;
     }
+    .igclassright h1{
+    font-size: 20px;
+}
+.igclassright p{
+    font-size: 10px;
+    padding: 10px;
+}
 }
