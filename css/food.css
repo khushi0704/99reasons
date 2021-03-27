@@ -5,15 +5,22 @@
    width: 100%;
    }
 .foodietwo{
-    height: 500px;
+    transition: 0.3s;
+    height: 900px;
     display: flex;
 }
 .hello{
     width: 50%;
-    background-color: aqua;
     background-image: url('../images/food img/canva.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+#image8{
+    width: 40%;
+    
+}
+#image9{
+    width: 50%;
 }
 .hemlo{
   width: 50%;
