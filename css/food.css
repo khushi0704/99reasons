@@ -1,27 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 .foodie{
     height: 550px;
+}
+.foodietwo , .food-slider{
+    margin-top: 60px;
 }
 .foodie img{
    width: 100%;
    }
 .foodietwo{
     transition: 0.3s;
-    height: 900px;
+    height: 400px;
     display: flex;
+    color: rgb(1, 7, 12);
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
 }
 .hello{
-    width: 50%;
-    background-image: url('../images/food img/canva.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-#image8{
-    width: 40%;
-    
-}
-#image9{
-    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
 }
 .hemlo{
-  width: 50%;
+    width: 50%;
+    background-image: url('../images/food img/worth1.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.hemlo2{
+    background-image: url('../images/food img/bbg.png');
+    width: 50%;
+}
+.hello img{
+    width: 20%;
+}
+@media (max-width:600px){
+    .foodie{
+        height: auto;
+    }
+    .foodietwo{
+        height: 1000px;
+        flex-direction: column;
+    }
+    .hemlo{
+        width: 100%;
+    }
+    .hemlo2{
+        width: 100%;
+    }
+    .foodie img{
+        padding-top: 70px;
+        }
 }
