@@ -19,12 +19,7 @@
     text-align: center;
     transition: all 0.3s ease-in-out;
 }
-.hello{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-   
-}
+
 .hemlo{
     width: 50%;
     background-image: url('../images/food img/worth1.png');
@@ -35,9 +30,19 @@
     background-image: url('../images/food img/bbg.png');
     width: 50%;
 }
-.hello img{
+.hello{
+    margin: 50px;
+}
+#img0{
     width: 20%;
 }
+#img1{
+    width: 20%;
+}
+#img2{
+    width: 50%;
+}
+
 @media (max-width:600px){
     .foodie{
         height: auto;
