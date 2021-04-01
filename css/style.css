@@ -21,7 +21,41 @@
 html {
     scroll-behavior: smooth;
   }
-
+  form.example {
+    padding-top: 10px;
+}
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: center;
+    width: 30%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: center;
+    width: 5%;
+    padding: 10px;
+    background: #f37521;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #da3b0b;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 /* navbar styling */
 nav{
   height: 70px;
@@ -353,7 +387,7 @@ footer a:hover {
     display: table;
     clear: both;
   }
-  .about{
+  /* .about{
       display: flex;
       flex-direction: column;
       height: auto;
@@ -369,7 +403,7 @@ footer a:hover {
       font-size: 20px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       line-height: 40px; 
-     }
+     } */
  
   /* responsive */
   
@@ -380,6 +414,19 @@ footer a:hover {
     .home{
         height: 350px;
     }
+    
+    form.example input[type=text] {
+        padding: 5px;
+        font-size: 7px;
+        width: 50%;
+      }
+      
+      /* Style the submit button */
+      form.example button {
+        width: 15%;
+        padding: 5px;
+        font-size: 6px;
+      }
     .home-head {
         font-size: 10px;
         padding-top: 150px;

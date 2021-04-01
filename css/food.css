@@ -22,9 +22,9 @@
 
 .hemlo{
     width: 50%;
-    background-image: url('../images/food img/worth1.png');
-   background-size: contain;
-   background-repeat: no-repeat;
+}
+.hemlo img{
+    width: 100%;
 }
 .hemlo2{
     background-image: url('../images/food img/bbg.png');
@@ -48,13 +48,15 @@
         height: auto;
     }
     .foodietwo{
-        height: 1000px;
+        height: 1200px;
         flex-direction: column;
     }
     .hemlo{
         width: 100%;
+        background-size: 20%;
     }
     .hemlo2{
+        
         width: 100%;
     }
     .foodie img{
