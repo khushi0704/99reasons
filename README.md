@@ -45,7 +45,7 @@ Project is: in progress
 Add here credits. Project inspired by..., based on...
 
 ## Contact
-Created by [@khushi0704](https://khushi0704.gi# Made with ❤ by [Khushi](https://khushi0704.github.io/portfolio1/).thub.io/portfolio1/) - feel free to contact me!
+Created by [@khushi0704](https://khushi0704.github.io/portfolio1/) - feel free to contact me!
 
 
 # Made with ❤ by [Khushi](https://khushi0704.github.io/portfolio1/).
